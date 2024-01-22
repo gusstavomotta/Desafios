@@ -1,5 +1,5 @@
 <?php
-require "./functions.php";
+require "functions.php";
 
 $matriz_quadrada_1 = [
     [2, 3],
