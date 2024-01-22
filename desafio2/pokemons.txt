@@ -1,0 +1,758 @@
+(object) array(
+   'count' => 1302,
+   'next' => 'https://pokeapi.co/api/v2/pokemon?offset=150&limit=150',
+   'previous' => NULL,
+   'results' => 
+  array (
+    0 => 
+    (object) array(
+       'name' => 'bulbasaur',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/1/',
+    ),
+    1 => 
+    (object) array(
+       'name' => 'ivysaur',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/2/',
+    ),
+    2 => 
+    (object) array(
+       'name' => 'venusaur',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/3/',
+    ),
+    3 => 
+    (object) array(
+       'name' => 'charmander',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/4/',
+    ),
+    4 => 
+    (object) array(
+       'name' => 'charmeleon',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/5/',
+    ),
+    5 => 
+    (object) array(
+       'name' => 'charizard',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/6/',
+    ),
+    6 => 
+    (object) array(
+       'name' => 'squirtle',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/7/',
+    ),
+    7 => 
+    (object) array(
+       'name' => 'wartortle',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/8/',
+    ),
+    8 => 
+    (object) array(
+       'name' => 'blastoise',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/9/',
+    ),
+    9 => 
+    (object) array(
+       'name' => 'caterpie',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/10/',
+    ),
+    10 => 
+    (object) array(
+       'name' => 'metapod',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/11/',
+    ),
+    11 => 
+    (object) array(
+       'name' => 'butterfree',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/12/',
+    ),
+    12 => 
+    (object) array(
+       'name' => 'weedle',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/13/',
+    ),
+    13 => 
+    (object) array(
+       'name' => 'kakuna',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/14/',
+    ),
+    14 => 
+    (object) array(
+       'name' => 'beedrill',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/15/',
+    ),
+    15 => 
+    (object) array(
+       'name' => 'pidgey',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/16/',
+    ),
+    16 => 
+    (object) array(
+       'name' => 'pidgeotto',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/17/',
+    ),
+    17 => 
+    (object) array(
+       'name' => 'pidgeot',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/18/',
+    ),
+    18 => 
+    (object) array(
+       'name' => 'rattata',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/19/',
+    ),
+    19 => 
+    (object) array(
+       'name' => 'raticate',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/20/',
+    ),
+    20 => 
+    (object) array(
+       'name' => 'spearow',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/21/',
+    ),
+    21 => 
+    (object) array(
+       'name' => 'fearow',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/22/',
+    ),
+    22 => 
+    (object) array(
+       'name' => 'ekans',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/23/',
+    ),
+    23 => 
+    (object) array(
+       'name' => 'arbok',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/24/',
+    ),
+    24 => 
+    (object) array(
+       'name' => 'pikachu',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/25/',
+    ),
+    25 => 
+    (object) array(
+       'name' => 'raichu',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/26/',
+    ),
+    26 => 
+    (object) array(
+       'name' => 'sandshrew',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/27/',
+    ),
+    27 => 
+    (object) array(
+       'name' => 'sandslash',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/28/',
+    ),
+    28 => 
+    (object) array(
+       'name' => 'nidoran-f',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/29/',
+    ),
+    29 => 
+    (object) array(
+       'name' => 'nidorina',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/30/',
+    ),
+    30 => 
+    (object) array(
+       'name' => 'nidoqueen',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/31/',
+    ),
+    31 => 
+    (object) array(
+       'name' => 'nidoran-m',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/32/',
+    ),
+    32 => 
+    (object) array(
+       'name' => 'nidorino',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/33/',
+    ),
+    33 => 
+    (object) array(
+       'name' => 'nidoking',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/34/',
+    ),
+    34 => 
+    (object) array(
+       'name' => 'clefairy',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/35/',
+    ),
+    35 => 
+    (object) array(
+       'name' => 'clefable',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/36/',
+    ),
+    36 => 
+    (object) array(
+       'name' => 'vulpix',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/37/',
+    ),
+    37 => 
+    (object) array(
+       'name' => 'ninetales',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/38/',
+    ),
+    38 => 
+    (object) array(
+       'name' => 'jigglypuff',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/39/',
+    ),
+    39 => 
+    (object) array(
+       'name' => 'wigglytuff',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/40/',
+    ),
+    40 => 
+    (object) array(
+       'name' => 'zubat',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/41/',
+    ),
+    41 => 
+    (object) array(
+       'name' => 'golbat',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/42/',
+    ),
+    42 => 
+    (object) array(
+       'name' => 'oddish',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/43/',
+    ),
+    43 => 
+    (object) array(
+       'name' => 'gloom',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/44/',
+    ),
+    44 => 
+    (object) array(
+       'name' => 'vileplume',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/45/',
+    ),
+    45 => 
+    (object) array(
+       'name' => 'paras',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/46/',
+    ),
+    46 => 
+    (object) array(
+       'name' => 'parasect',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/47/',
+    ),
+    47 => 
+    (object) array(
+       'name' => 'venonat',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/48/',
+    ),
+    48 => 
+    (object) array(
+       'name' => 'venomoth',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/49/',
+    ),
+    49 => 
+    (object) array(
+       'name' => 'diglett',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/50/',
+    ),
+    50 => 
+    (object) array(
+       'name' => 'dugtrio',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/51/',
+    ),
+    51 => 
+    (object) array(
+       'name' => 'meowth',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/52/',
+    ),
+    52 => 
+    (object) array(
+       'name' => 'persian',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/53/',
+    ),
+    53 => 
+    (object) array(
+       'name' => 'psyduck',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/54/',
+    ),
+    54 => 
+    (object) array(
+       'name' => 'golduck',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/55/',
+    ),
+    55 => 
+    (object) array(
+       'name' => 'mankey',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/56/',
+    ),
+    56 => 
+    (object) array(
+       'name' => 'primeape',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/57/',
+    ),
+    57 => 
+    (object) array(
+       'name' => 'growlithe',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/58/',
+    ),
+    58 => 
+    (object) array(
+       'name' => 'arcanine',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/59/',
+    ),
+    59 => 
+    (object) array(
+       'name' => 'poliwag',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/60/',
+    ),
+    60 => 
+    (object) array(
+       'name' => 'poliwhirl',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/61/',
+    ),
+    61 => 
+    (object) array(
+       'name' => 'poliwrath',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/62/',
+    ),
+    62 => 
+    (object) array(
+       'name' => 'abra',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/63/',
+    ),
+    63 => 
+    (object) array(
+       'name' => 'kadabra',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/64/',
+    ),
+    64 => 
+    (object) array(
+       'name' => 'alakazam',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/65/',
+    ),
+    65 => 
+    (object) array(
+       'name' => 'machop',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/66/',
+    ),
+    66 => 
+    (object) array(
+       'name' => 'machoke',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/67/',
+    ),
+    67 => 
+    (object) array(
+       'name' => 'machamp',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/68/',
+    ),
+    68 => 
+    (object) array(
+       'name' => 'bellsprout',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/69/',
+    ),
+    69 => 
+    (object) array(
+       'name' => 'weepinbell',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/70/',
+    ),
+    70 => 
+    (object) array(
+       'name' => 'victreebel',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/71/',
+    ),
+    71 => 
+    (object) array(
+       'name' => 'tentacool',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/72/',
+    ),
+    72 => 
+    (object) array(
+       'name' => 'tentacruel',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/73/',
+    ),
+    73 => 
+    (object) array(
+       'name' => 'geodude',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/74/',
+    ),
+    74 => 
+    (object) array(
+       'name' => 'graveler',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/75/',
+    ),
+    75 => 
+    (object) array(
+       'name' => 'golem',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/76/',
+    ),
+    76 => 
+    (object) array(
+       'name' => 'ponyta',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/77/',
+    ),
+    77 => 
+    (object) array(
+       'name' => 'rapidash',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/78/',
+    ),
+    78 => 
+    (object) array(
+       'name' => 'slowpoke',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/79/',
+    ),
+    79 => 
+    (object) array(
+       'name' => 'slowbro',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/80/',
+    ),
+    80 => 
+    (object) array(
+       'name' => 'magnemite',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/81/',
+    ),
+    81 => 
+    (object) array(
+       'name' => 'magneton',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/82/',
+    ),
+    82 => 
+    (object) array(
+       'name' => 'farfetchd',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/83/',
+    ),
+    83 => 
+    (object) array(
+       'name' => 'doduo',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/84/',
+    ),
+    84 => 
+    (object) array(
+       'name' => 'dodrio',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/85/',
+    ),
+    85 => 
+    (object) array(
+       'name' => 'seel',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/86/',
+    ),
+    86 => 
+    (object) array(
+       'name' => 'dewgong',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/87/',
+    ),
+    87 => 
+    (object) array(
+       'name' => 'grimer',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/88/',
+    ),
+    88 => 
+    (object) array(
+       'name' => 'muk',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/89/',
+    ),
+    89 => 
+    (object) array(
+       'name' => 'shellder',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/90/',
+    ),
+    90 => 
+    (object) array(
+       'name' => 'cloyster',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/91/',
+    ),
+    91 => 
+    (object) array(
+       'name' => 'gastly',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/92/',
+    ),
+    92 => 
+    (object) array(
+       'name' => 'haunter',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/93/',
+    ),
+    93 => 
+    (object) array(
+       'name' => 'gengar',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/94/',
+    ),
+    94 => 
+    (object) array(
+       'name' => 'onix',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/95/',
+    ),
+    95 => 
+    (object) array(
+       'name' => 'drowzee',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/96/',
+    ),
+    96 => 
+    (object) array(
+       'name' => 'hypno',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/97/',
+    ),
+    97 => 
+    (object) array(
+       'name' => 'krabby',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/98/',
+    ),
+    98 => 
+    (object) array(
+       'name' => 'kingler',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/99/',
+    ),
+    99 => 
+    (object) array(
+       'name' => 'voltorb',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/100/',
+    ),
+    100 => 
+    (object) array(
+       'name' => 'electrode',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/101/',
+    ),
+    101 => 
+    (object) array(
+       'name' => 'exeggcute',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/102/',
+    ),
+    102 => 
+    (object) array(
+       'name' => 'exeggutor',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/103/',
+    ),
+    103 => 
+    (object) array(
+       'name' => 'cubone',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/104/',
+    ),
+    104 => 
+    (object) array(
+       'name' => 'marowak',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/105/',
+    ),
+    105 => 
+    (object) array(
+       'name' => 'hitmonlee',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/106/',
+    ),
+    106 => 
+    (object) array(
+       'name' => 'hitmonchan',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/107/',
+    ),
+    107 => 
+    (object) array(
+       'name' => 'lickitung',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/108/',
+    ),
+    108 => 
+    (object) array(
+       'name' => 'koffing',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/109/',
+    ),
+    109 => 
+    (object) array(
+       'name' => 'weezing',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/110/',
+    ),
+    110 => 
+    (object) array(
+       'name' => 'rhyhorn',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/111/',
+    ),
+    111 => 
+    (object) array(
+       'name' => 'rhydon',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/112/',
+    ),
+    112 => 
+    (object) array(
+       'name' => 'chansey',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/113/',
+    ),
+    113 => 
+    (object) array(
+       'name' => 'tangela',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/114/',
+    ),
+    114 => 
+    (object) array(
+       'name' => 'kangaskhan',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/115/',
+    ),
+    115 => 
+    (object) array(
+       'name' => 'horsea',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/116/',
+    ),
+    116 => 
+    (object) array(
+       'name' => 'seadra',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/117/',
+    ),
+    117 => 
+    (object) array(
+       'name' => 'goldeen',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/118/',
+    ),
+    118 => 
+    (object) array(
+       'name' => 'seaking',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/119/',
+    ),
+    119 => 
+    (object) array(
+       'name' => 'staryu',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/120/',
+    ),
+    120 => 
+    (object) array(
+       'name' => 'starmie',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/121/',
+    ),
+    121 => 
+    (object) array(
+       'name' => 'mr-mime',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/122/',
+    ),
+    122 => 
+    (object) array(
+       'name' => 'scyther',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/123/',
+    ),
+    123 => 
+    (object) array(
+       'name' => 'jynx',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/124/',
+    ),
+    124 => 
+    (object) array(
+       'name' => 'electabuzz',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/125/',
+    ),
+    125 => 
+    (object) array(
+       'name' => 'magmar',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/126/',
+    ),
+    126 => 
+    (object) array(
+       'name' => 'pinsir',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/127/',
+    ),
+    127 => 
+    (object) array(
+       'name' => 'tauros',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/128/',
+    ),
+    128 => 
+    (object) array(
+       'name' => 'magikarp',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/129/',
+    ),
+    129 => 
+    (object) array(
+       'name' => 'gyarados',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/130/',
+    ),
+    130 => 
+    (object) array(
+       'name' => 'lapras',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/131/',
+    ),
+    131 => 
+    (object) array(
+       'name' => 'ditto',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/132/',
+    ),
+    132 => 
+    (object) array(
+       'name' => 'eevee',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/133/',
+    ),
+    133 => 
+    (object) array(
+       'name' => 'vaporeon',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/134/',
+    ),
+    134 => 
+    (object) array(
+       'name' => 'jolteon',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/135/',
+    ),
+    135 => 
+    (object) array(
+       'name' => 'flareon',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/136/',
+    ),
+    136 => 
+    (object) array(
+       'name' => 'porygon',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/137/',
+    ),
+    137 => 
+    (object) array(
+       'name' => 'omanyte',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/138/',
+    ),
+    138 => 
+    (object) array(
+       'name' => 'omastar',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/139/',
+    ),
+    139 => 
+    (object) array(
+       'name' => 'kabuto',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/140/',
+    ),
+    140 => 
+    (object) array(
+       'name' => 'kabutops',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/141/',
+    ),
+    141 => 
+    (object) array(
+       'name' => 'aerodactyl',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/142/',
+    ),
+    142 => 
+    (object) array(
+       'name' => 'snorlax',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/143/',
+    ),
+    143 => 
+    (object) array(
+       'name' => 'articuno',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/144/',
+    ),
+    144 => 
+    (object) array(
+       'name' => 'zapdos',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/145/',
+    ),
+    145 => 
+    (object) array(
+       'name' => 'moltres',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/146/',
+    ),
+    146 => 
+    (object) array(
+       'name' => 'dratini',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/147/',
+    ),
+    147 => 
+    (object) array(
+       'name' => 'dragonair',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/148/',
+    ),
+    148 => 
+    (object) array(
+       'name' => 'dragonite',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/149/',
+    ),
+    149 => 
+    (object) array(
+       'name' => 'mewtwo',
+       'url' => 'https://pokeapi.co/api/v2/pokemon/150/',
+    ),
+  ),
+)

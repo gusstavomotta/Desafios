@@ -8,7 +8,7 @@ function multiplica_matriz_quadrada(array $matriz_X, array $matriz_Y): array
     for ($i = 0; $i < (sizeof($matriz_X)); $i++) {
         for ($j = 0; $j < (sizeof($matriz_Y[0])); $j++) {
             for ($x = 0; $x < (sizeof($matriz_X[0])); $x++) {
-                $matriz_resultado[$i][$j] += ($matriz_X[$i][$x] * $matriz_Y[$x][$j]); //coloca na posição i j da matriz resultado a multiplicação entre as duas matrizes
+                @$matriz_resultado[$i][$j] += ($matriz_X[$i][$x] * $matriz_Y[$x][$j]); //coloca na posição i j da matriz resultado a multiplicação entre as duas matrizes
             }
         }
     }
@@ -35,7 +35,7 @@ function multiplica_matriz_normal(array $matriz_A, array $matriz_B): array
     for ($i = 0; $i < $linhas_A; $i++) {
         for ($j = 0; $j < $colunas_B; $j++) {
             for ($x = 0; $x < $colunas_A; $x++) {
-                $matriz_resultado[$i][$j] += ($matriz_A[$i][$x] * $matriz_B[$x][$j]);
+                @$matriz_resultado[$i][$j] += ($matriz_A[$i][$x] * $matriz_B[$x][$j]);
             }
         }
     }
