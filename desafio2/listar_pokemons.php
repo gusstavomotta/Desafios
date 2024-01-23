@@ -1,18 +1,21 @@
 <?php
-
+//declarando variáveis
 $limite = 15;
 $pagina = $_GET['page'];
 $inicio = ($limite * $pagina) - $limite;
-
 $url = "https://pokeapi.co/api/v2/pokemon?limit=150&offset=0";
-if (!file_exists('pokemons.txt')) {
-    $pokemons = json_decode(file_get_contents($url));
-    file_put_contents('pokemons.txt', json_encode($pokemons->results));
-}
+$arquivo = 'pokemons.txt';
 
-$array_pokemons = json_decode(file_get_contents('pokemons.txt'), true);
+//verifica se o não existe, caso nao existir ele cria
+if (!file_exists($arquivo)) {
+    $pokemons = json_decode(file_get_contents($url));
+    file_put_contents($arquivo, json_encode($pokemons->results));
+}
+//faz o json decode e o file get para pegar os dados do txt, precisei fazer o encode para depois fazer o decode e o get contents para ele retornar um array e eu conseguir fatiar
+$array_pokemons = json_decode(file_get_contents($arquivo), true);
 $array_pokemons_paginado = array_slice($array_pokemons, $inicio, $limite);
 
+//html para printar os dados em lista e paginar
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -25,17 +28,22 @@ $array_pokemons_paginado = array_slice($array_pokemons, $inicio, $limite);
 
 <body>
     <h1>Lista dos pokemons</h1>
-
     <ul>
         <?php foreach ($array_pokemons_paginado as $pokemon) : ?>
-            <li><?php echo $pokemon['name'];
-                //echo json_encode($pokemon);
+        <li>
+            <?php
+                //foreach para printar os resultados, precisa ser nesse formato para printar cada elemento como uma lista, caso contrario ele printa tudo em 1 indice
+                echo json_encode($pokemon);
+                //echo json_encode($pokemon['name']);
+                //echo $pokemon['name'];
                 ?></li>
         <?php endforeach; ?>
     </ul>
     <div class="paginacao">
-        <?php for ($i = 1; $i <= ceil(sizeof($array_pokemons) / $limite); $i++) : ?>
-            <a href="?page=<?php echo $i; ?>"><?php echo $i; ?></a>
+        <?php
+        //loop usado para criar os links das páginas através da divisao do tamanho do array de pokemons, ele cria as paginas ate o loop encerrar
+        for ($i = 1; $i <= ceil(sizeof($array_pokemons) / $limite); $i++) : ?>
+        <a href="?page=<?php echo $i; ?>"><?php echo $i; ?></a>
         <?php endfor; ?>
     </div>
 

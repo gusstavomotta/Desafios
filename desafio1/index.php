@@ -1,6 +1,6 @@
 <?php
 require "functions.php";
-
+//declaração das matrizes
 $matriz_quadrada_1 = [
     [2, 3],
     [5, 6]
@@ -19,7 +19,7 @@ $matriz_normal_2 = [
     [3, 6],
     [2, 3],
 ];
-
+//retorno do resultado e print
 $matriz_normal_resultado = multiplica_matriz($matriz_quadrada_1, $matriz_quadrada_2);
 echo "\nResultados: \n";
 printa_matriz($matriz_normal_resultado);
