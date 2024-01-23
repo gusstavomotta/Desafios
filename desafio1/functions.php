@@ -1,22 +1,6 @@
 <?php
 
-function multiplica_matriz_quadrada(array $matriz_X, array $matriz_Y): array
-{
-    //O programa envia um aviso pois a matriz declarada nao foi inicializada com 0
-    $matriz_resultado = array();
-    //3 loops sao criados para percorrer as matrizes, o 1 percorre linhas, o 2 colunas e o 3 colunas verticalmente
-    for ($i = 0; $i < (sizeof($matriz_X)); $i++) {
-        for ($j = 0; $j < (sizeof($matriz_Y[0])); $j++) {
-            for ($x = 0; $x < (sizeof($matriz_X[0])); $x++) {
-                @$matriz_resultado[$i][$j] += ($matriz_X[$i][$x] * $matriz_Y[$x][$j]); //coloca na posição i j da matriz resultado a multiplicação entre as duas matrizes
-            }
-        }
-    }
-    //retorna a matriz resultado
-    return $matriz_resultado;
-}
-
-function multiplica_matriz_normal(array $matriz_A, array $matriz_B): array
+function multiplica_matriz(array $matriz_A, array $matriz_B): array
 {
     //get das dimensões das matrizes
     $linhas_A = sizeof($matriz_A);
