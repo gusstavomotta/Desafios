@@ -1,7 +1,7 @@
 <?php
 
 $limite = 15;
-$pagina = isset($_GET['page']) ? (int)$_GET['page'] : 1;
+$pagina = $_GET['page'];
 $inicio = ($limite * $pagina) - $limite;
 
 $url = "https://pokeapi.co/api/v2/pokemon?limit=150&offset=0";
@@ -28,7 +28,9 @@ $array_pokemons_paginado = array_slice($array_pokemons, $inicio, $limite);
 
     <ul>
         <?php foreach ($array_pokemons_paginado as $pokemon) : ?>
-            <li><?php echo $pokemon['name']; ?></li>
+            <li><?php echo $pokemon['name'];
+                //echo json_encode($pokemon);
+                ?></li>
         <?php endforeach; ?>
     </ul>
     <div class="paginacao">
